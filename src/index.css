@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Roboto Condensed';
+  box-sizing: border-box;
+}
+
+.text-stroke-title {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #CB883A;
+}
+
+.text-shadow {
+  text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.25);
+}
