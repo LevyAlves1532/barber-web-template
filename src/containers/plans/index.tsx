@@ -6,12 +6,10 @@ import { styles } from "../../constants/styles";
 import { plansData } from "../../constants/data";
 
 export function PlansContainer() {
-  console.log(plansData);
-
   return (
     <section className={styles.section_primary} id="plans">
       <div className={styles.container_page}>
-        <div className="max-w-[1024px] w-full px-5 mx-auto">
+        <div className="max-w-[450px] sm:max-w-[1024px] w-full px-5 mx-auto">
           <div className="flex gap-3 mb-10">
             <span className={styles.bar} />
 
@@ -26,7 +24,7 @@ export function PlansContainer() {
             </div>
           </div>
 
-          <div className="flex gap-8 flex-wrap">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 flex-wrap">
             {
               plansData.map((plan) => (
                 <Plan 
