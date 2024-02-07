@@ -14,15 +14,15 @@ export function BannerContainer() {
       >
         <div className="max-w-[1280px] w-full mx-auto h-full px-5 flex flex-col justify-center relative z-10">
           <div className="max-w-[520px] w-full">
-            <h1 className="text-8xl font-kaushan uppercase text-white text-stroke-title text-shadow">
+            <h1 className="text-[15vw] sm:text-8xl font-kaushan uppercase text-white text-stroke-title text-shadow">
               Your Hair
             </h1>
-            <h2 className="text-7xl font-kaushan uppercase text-yellow-600 leading-[85px] mb-8">
+            <h2 className="text-[12vw] sm:text-7xl font-kaushan uppercase text-yellow-600 leading-[14vw] sm:leading-[85px] mb-8">
               DESERVES
               THE BEST
             </h2>
-            <div className="flex gap-10 pl-3 items-center">
-              <Button style="hover:bg-white group">
+            <div className="flex flex-col sm:flex-row gap-10 pl-3 items-center">
+              <Button style="hover:bg-white group w-full sm:w-fit">
                 <p className="text-lg font-medium text-white transition-all ease-linear duration-[0.5s] group-hover:text-yellow-800">Get in Touch</p>
               </Button>
 
