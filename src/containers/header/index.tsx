@@ -17,7 +17,7 @@ export function HeaderContainer() {
       <div className={`${styles.container_page} py-5`}>
         <div className="max-w-[1280px] w-full mx-auto px-5 flex justify-between items-center">
           <button className="ml-5">
-            <img src={images.logo} alt="logo" />
+            <img src={images.logo} width={111} height={34} alt="logo" />
           </button>
 
           <button 

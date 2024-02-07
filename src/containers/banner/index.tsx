@@ -23,11 +23,11 @@ export function BannerContainer() {
             </h2>
             <div className="flex flex-col sm:flex-row gap-10 pl-3 items-center">
               <Button style="hover:bg-white group w-full sm:w-fit">
-                <p className="text-lg font-medium text-white transition-all ease-linear duration-[0.5s] group-hover:text-yellow-800">Get in Touch</p>
+                <p className={`text-lg font-medium text-white ${styles.effect} group-hover:text-yellow-800`}>Get in Touch</p>
               </Button>
 
               <button className="flex items-center gap-3">
-                <img src={images.play} alt="button play" />
+                <img src={images.play} width={59} height={59} alt="button play" />
                 <p className="text-lg text-white font-medium">
                   Play Video
                 </p>

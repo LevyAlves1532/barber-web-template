@@ -1,9 +1,7 @@
 // CONTAINERs
 import { HeaderContainer } from "./containers/header";
 import { BannerContainer } from "./containers/banner";
-
-// STYLEs
-import "./App.css";
+import { PlansContainer } from "./containers/plans";
 
 export function App() {
   return (
@@ -11,6 +9,7 @@ export function App() {
       <main>
         <HeaderContainer />
         <BannerContainer />
+        <PlansContainer />
       </main>
     </div>
   )

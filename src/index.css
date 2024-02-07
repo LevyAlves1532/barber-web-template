@@ -15,3 +15,7 @@
 .text-shadow {
   text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.25);
 }
+
+.plan-benefits-item span {
+  color: #CB883A;
+}
