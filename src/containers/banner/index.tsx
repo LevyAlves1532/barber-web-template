@@ -7,12 +7,12 @@ import { images } from "../../constants/images";
 
 export function BannerContainer() {
   return (
-    <section className="w-full h-[768px] bg-stone-900">
+    <section className="w-full h-[768px] bg-stone-900" id="home">
       <div 
         className={`${styles.container_page} h-full bg-center bg-cover relative`}
         style={{ backgroundImage: `url(${images.banner})` }}
       >
-        <div className="max-w-[1280px] w-full mx-auto h-full px-5 flex flex-col justify-center relative z-10">
+        <div className="max-w-[1280px] w-full mx-auto h-full px-5 flex flex-col justify-center relative z-[2]">
           <div className="max-w-[520px] w-full">
             <h1 className="text-[15vw] sm:text-8xl font-kaushan uppercase text-white text-stroke-title text-shadow">
               Your Hair
