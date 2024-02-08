@@ -8,6 +8,8 @@ export const styles = {
 
   text_primary: "text-sm leading-6 text-white/80",
 
+  container_1280: "max-w-[1280px] w-full mx-auto px-5",
+
   bar: "w-16 h-1 bg-yellow-600 mt-4",
 
   effect: "transition-all ease-in duration-[0.5s]",

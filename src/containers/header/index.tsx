@@ -61,7 +61,7 @@ export function HeaderContainer() {
   return (
     <header className={`w-full fixed top-0 left-0 z-10 ${bgHeader ? "bg-stone-950" : "bg-transparent"}`}>
       <div className={`${styles.container_page} py-5`}>
-        <div className="max-w-[1280px] w-full mx-auto px-5 flex justify-between items-center">
+        <div className={`${styles.container_1280} flex justify-between items-center`}>
           <Link to="home" smooth className="ml-5 cursor-pointer">
             <img src={images.logo} width={111} height={34} alt="logo" />
           </Link>

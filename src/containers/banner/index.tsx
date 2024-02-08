@@ -12,7 +12,7 @@ export function BannerContainer() {
         className={`${styles.container_page} h-full bg-center bg-cover relative`}
         style={{ backgroundImage: `url(${images.banner})` }}
       >
-        <div className="max-w-[1280px] w-full mx-auto h-full px-5 flex flex-col justify-center relative z-[2]">
+        <div className={`${styles.container_1280} h-full flex flex-col justify-center relative z-[2]`}>
           <div className="max-w-[520px] w-full">
             <h1 className="text-[15vw] sm:text-8xl font-kaushan uppercase text-white text-stroke-title text-shadow">
               Your Hair
