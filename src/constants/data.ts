@@ -1,3 +1,6 @@
+// CONSTANTs
+import { images } from "./images";
+
 const generateId = () => Math.random() * 9999;
 
 const createMenuItem = (name: string, link?: string) => ({
@@ -26,7 +29,14 @@ const createPlansItemBenefit = (label: string, qtd_month: number, short_descript
   label,
   month: qtd_month > 0 ? `<span>${qtd_month}x</span> In the month` : `<span>None</span> month`,
   short_description,
-})
+});
+
+const createServiceItem = (icon: string, title: string, short_description: string) => ({
+  id: generateId(),
+  icon,
+  title,
+  short_description,
+});
 
 export const menuData = [
   createMenuItem("Home"),
@@ -55,3 +65,12 @@ export const plansData = [
     createPlansItemBenefit("Effects Hair", 2, "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
   ]),
 ];
+
+export const servicesData = [
+  createServiceItem(images.services_card_icon, "HAIRCUT", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
+  createServiceItem(images.services_card_icon, "BEARD", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
+  createServiceItem(images.services_card_icon, "straightening", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
+  createServiceItem(images.services_card_icon, "LIGHTS", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
+  createServiceItem(images.services_card_icon, "straightening", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
+  createServiceItem(images.services_card_icon, "LIGHTS", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
+]

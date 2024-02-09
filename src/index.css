@@ -19,3 +19,11 @@
 .plan-benefits-item span {
   color: #CB883A;
 }
+
+.services-slider .slick-track {
+  margin: 0 -8px;
+}
+
+.services-slider .slick-slide {
+  padding: 0 8px;
+}
