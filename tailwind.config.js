@@ -10,6 +10,9 @@ export default {
         "kaushan": ["Kaushan Script", "Arial"],
         "roboto": ["Roboto Condensed", "sans-serif", "Arial"],
       },
+      gridTemplateRows: {
+        '14': 'repeat(14, minmax(0, 1fr))',
+      },
     },
   },
   plugins: [],
