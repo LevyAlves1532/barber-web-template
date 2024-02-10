@@ -2,7 +2,7 @@
 import { styles } from "../../constants/styles";
 import { images } from "../../constants/images";
 
-const image_config = "h-full object-cover object-center";
+const image_config = "w-full h-full object-cover object-center";
 
 export function PortfolioContainer() {
   return (

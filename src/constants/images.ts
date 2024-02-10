@@ -14,6 +14,9 @@ import portfoliotTopSix from "../assets/images/portfolio-top-six.png";
 import portfoliotBottomOne from "../assets/images/portfolio-bottom-one.png";
 import portfoliotBottomTwo from "../assets/images/portfolio-bottom-two.png";
 import portfoliotBottomThree from "../assets/images/portfolio-bottom-three.png";
+import testimonialCardProfile1 from "../assets/images/testimonial_card_profile1.png";
+import testimonialCardProfile2 from "../assets/images/testimonial_card_profile2.png";
+import testimonialCardProfile3 from "../assets/images/testimonial_card_profile3.png";
 
 export const images = {
   banner,
@@ -31,4 +34,7 @@ export const images = {
   portfolio_bottom_one: portfoliotBottomOne,
   portfolio_bottom_two: portfoliotBottomTwo,
   portfolio_bottom_three: portfoliotBottomThree,
+  testimonial_card_profile1: testimonialCardProfile1,
+  testimonial_card_profile2: testimonialCardProfile2,
+  testimonial_card_profile3: testimonialCardProfile3,
 };

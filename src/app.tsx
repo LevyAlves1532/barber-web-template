@@ -5,6 +5,7 @@ import { PlansContainer } from "./containers/plans";
 import { AboutContainer } from "./containers/about";
 import { ServicesContainer } from "./containers/services";
 import { PortfolioContainer } from "./containers/portfolio";
+import { CustomersContainer } from "./containers/customers";
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
         <AboutContainer />
         <ServicesContainer />
         <PortfolioContainer />
+        <CustomersContainer />
       </main>
     </div>
   )

@@ -38,6 +38,14 @@ const createServiceItem = (icon: string, title: string, short_description: strin
   short_description,
 });
 
+const createTestimonialItem = (profile: string, name: string, rating: number, message: string) => ({
+  id: generateId(),
+  profile,
+  name,
+  rating,
+  message,
+});
+
 export const menuData = [
   createMenuItem("Home"),
   createMenuItem("Plans"),
@@ -73,4 +81,10 @@ export const servicesData = [
   createServiceItem(images.services_card_icon, "LIGHTS", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
   createServiceItem(images.services_card_icon, "straightening", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
   createServiceItem(images.services_card_icon, "LIGHTS", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
-]
+];
+
+export const testimonialsData = [
+  createTestimonialItem(images.testimonial_card_profile1, "JOHN MOORE", 5, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"),
+  createTestimonialItem(images.testimonial_card_profile2, "ROBBIE JONES", 5, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"),
+  createTestimonialItem(images.testimonial_card_profile3, "ERICK HUES", 5, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"),
+];

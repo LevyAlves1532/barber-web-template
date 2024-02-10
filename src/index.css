@@ -27,3 +27,11 @@
 .services-slider .slick-slide {
   padding: 0 8px;
 }
+
+.customer-slider .slick-track {
+  margin: 0 -15px;
+}
+
+.customer-slider .slick-slide {
+  padding: 0 15px;
+}
