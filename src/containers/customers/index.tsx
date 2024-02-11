@@ -24,9 +24,9 @@ export function CustomersContainer() {
               <span className={styles.bar} />
 
               <div className="max-w-[470px] w-full">
-                <h2 className={styles.title_primary}>
+                <h4 className={styles.title_primary}>
                   WHAT OUR CUSTOMERS SAY
-                </h2>
+                </h4>
                 <p className={styles.text_primary}>
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </p>

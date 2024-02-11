@@ -9,6 +9,9 @@ import { Service } from "../../components/service";
 import { styles } from "../../constants/styles";
 import { servicesData } from "../../constants/data";
 
+// CONTEXTs
+import { useFormSchedule } from "../../contexts/form-schedule";
+
 // STYLEs
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -18,6 +21,8 @@ import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 
 export function ServicesContainer() {
   const sliderRef = useRef<any>();
+
+  const { changeService } = useFormSchedule();
 
   return (
     <section className={styles.section_primary} id="services">
@@ -85,6 +90,9 @@ export function ServicesContainer() {
                   <Service 
                     service={service}
                     className={index % 2 !== 0 ? "md:mt-10" : "md:mt-0"}
+                    onClick={() => {
+                      changeService(service.id);
+                    }}
                     key={service.id}
                   />
                 ))

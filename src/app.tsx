@@ -6,6 +6,7 @@ import { AboutContainer } from "./containers/about";
 import { ServicesContainer } from "./containers/services";
 import { PortfolioContainer } from "./containers/portfolio";
 import { CustomersContainer } from "./containers/customers";
+import { ScheduleContainer } from "./containers/schedule";
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
         <ServicesContainer />
         <PortfolioContainer />
         <CustomersContainer />
+        <ScheduleContainer />
       </main>
     </div>
   )

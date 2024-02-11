@@ -46,6 +46,11 @@ const createTestimonialItem = (profile: string, name: string, rating: number, me
   message,
 });
 
+const createScheduleItem = (label: string, value: number) => ({
+  label: label.toLocaleLowerCase(),
+  value,
+});
+
 export const menuData = [
   createMenuItem("Home"),
   createMenuItem("Plans"),
@@ -79,12 +84,17 @@ export const servicesData = [
   createServiceItem(images.services_card_icon, "BEARD", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
   createServiceItem(images.services_card_icon, "straightening", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
   createServiceItem(images.services_card_icon, "LIGHTS", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
-  createServiceItem(images.services_card_icon, "straightening", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
-  createServiceItem(images.services_card_icon, "LIGHTS", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."),
 ];
 
 export const testimonialsData = [
   createTestimonialItem(images.testimonial_card_profile1, "JOHN MOORE", 5, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"),
   createTestimonialItem(images.testimonial_card_profile2, "ROBBIE JONES", 5, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"),
   createTestimonialItem(images.testimonial_card_profile3, "ERICK HUES", 5, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"),
+];
+
+export const scheduleData = [
+  createScheduleItem(servicesData[0].title, servicesData[0].id),
+  createScheduleItem(servicesData[1].title, servicesData[1].id),
+  createScheduleItem(servicesData[2].title, servicesData[2].id),
+  createScheduleItem(servicesData[3].title, servicesData[3].id),
 ];
