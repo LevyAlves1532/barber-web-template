@@ -18,6 +18,7 @@ import testimonialCardProfile1 from "../assets/images/testimonial_card_profile1.
 import testimonialCardProfile2 from "../assets/images/testimonial_card_profile2.png";
 import testimonialCardProfile3 from "../assets/images/testimonial_card_profile3.png";
 import scheduleFooter from "../assets/images/schedule_footer.png";
+import logoFooter from "../assets/images/logo_footer.png";
 
 export const images = {
   banner,
@@ -39,4 +40,5 @@ export const images = {
   testimonial_card_profile2: testimonialCardProfile2,
   testimonial_card_profile3: testimonialCardProfile3,
   schedule_footer: scheduleFooter,
+  logo_footer: logoFooter,
 };

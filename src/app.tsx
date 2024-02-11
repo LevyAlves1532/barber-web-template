@@ -7,12 +7,13 @@ import { ServicesContainer } from "./containers/services";
 import { PortfolioContainer } from "./containers/portfolio";
 import { CustomersContainer } from "./containers/customers";
 import { ScheduleContainer } from "./containers/schedule";
+import { FooterContainer } from "./containers/footer";
 
 export function App() {
   return (
     <div>
+      <HeaderContainer />
       <main>
-        <HeaderContainer />
         <BannerContainer />
         <PlansContainer />
         <AboutContainer />
@@ -21,6 +22,7 @@ export function App() {
         <CustomersContainer />
         <ScheduleContainer />
       </main>
+      <FooterContainer />
     </div>
   )
 }
