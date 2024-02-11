@@ -1,4 +1,4 @@
-![Logo do projeto](https://github.com/LevyAlves1532/barber-web-template/blob/src/assets/readme/barber_bg_logo.png)
+![Logo do projeto](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/barber_bg_logo.png)
 
 ## Barber Web Template
 O Barber Web Template é um projeto focado na apresentação de uma barbearia. Desenvolvido como parte de um aprendizado pessoal, este projeto não possui funcionalidades de backend para processar envios de formulários, concentrando-se principalmente na interface e na experiência do usuário em uma One Page profissional.
@@ -55,13 +55,13 @@ Como não há nenhum tipo de integração é só algo visual então não precisa
 
 Tendo blocos como: Banner, planos, sobre, serviços, portfolio, testemunhas/avaliações e agendamento.
 
-![Bloco de Banner](https://github.com/LevyAlves1532/barber-web-template/blob/src/assets/readme/banner.jpeg)
-![Bloco de Planos](https://github.com/LevyAlves1532/barber-web-template/blob/src/assets/readme/plans.jpeg)
-![Bloco de Sobre](https://github.com/LevyAlves1532/barber-web-template/blob/src/assets/readme/about.jpeg)
-![Bloco de Serviços](https://github.com/LevyAlves1532/barber-web-template/blob/src/assets/readme/services.jpeg)
-![Bloco de Portfolio](https://github.com/LevyAlves1532/barber-web-template/blob/src/assets/readme/portfolio.jpeg)
-![Bloco de Testemunhas/avaliações](https://github.com/LevyAlves1532/barber-web-template/blob/src/assets/readme/testimonial.jpeg)
-![Bloco de Agendamento](https://github.com/LevyAlves1532/barber-web-template/blob/src/assets/readme/schedule.jpeg)
+![Bloco de Banner](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/banner.jpeg)
+![Bloco de Planos](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/plans.jpeg)
+![Bloco de Sobre](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/about.jpeg)
+![Bloco de Serviços](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/services.jpeg)
+![Bloco de Portfolio](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/portfolio.jpeg)
+![Bloco de Testemunhas/avaliações](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/testimonial.jpeg)
+![Bloco de Agendamento](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/schedule.jpeg)
 
 ## Funcionalidades do Projeto
 
