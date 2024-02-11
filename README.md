@@ -61,7 +61,7 @@ Tendo blocos como: Banner, planos, sobre, serviços, portfolio, testemunhas/aval
 ![Bloco de Serviços](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/services.jpeg)
 ![Bloco de Portfolio](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/portfolio.jpeg)
 ![Bloco de Testemunhas/avaliações](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/testimonial.jpeg)
-![Bloco de Agendamento](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/schedule.jpeg)
+![Bloco de Agendamento](https://github.com/LevyAlves1532/barber-web-template/blob/master/src/assets/readme/contact.jpeg)
 
 ## Funcionalidades do Projeto
 
